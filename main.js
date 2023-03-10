@@ -22,7 +22,7 @@ http.createServer((req, res) =>{
                 fs.writeFileSync("data.txt", JSON.stringify(dataUpdate));
             });
             res.write(JSON.stringify(fs.readFileSync("data.txt")));
-            res.end("POST check");
+            res.end("");
         }
     }else if(req.method === "GET"){
         if (url === "/data"){
