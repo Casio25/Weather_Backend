@@ -1,0 +1,22 @@
+{
+  "name": "weather_backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Casio25/Weather_Backend.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Casio25/Weather_Backend/issues"
+  },
+  "homepage": "https://github.com/Casio25/Weather_Backend#readme",
+  "dependencies": {
+    "cors": "^2.8.5"
+  }
+}
